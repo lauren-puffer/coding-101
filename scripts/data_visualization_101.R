@@ -24,8 +24,6 @@ penguin_flip_bod <- penguins |>
   select(flipper_length_mm, body_mass_g) |>
   drop_na()
 
-
-
 # Make some visuals
 library(ggplot2)
 
